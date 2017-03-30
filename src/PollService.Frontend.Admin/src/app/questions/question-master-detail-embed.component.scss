@@ -1,0 +1,27 @@
+@import "../../styles/base/_all";
+
+ce-question-master-detail-embed {
+    display:block;
+
+    ce-question-edit-embed,
+    ce-question-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:calc(50% - 30px);
+    }
+
+    ce-question-edit-embed {
+        margin-right: 30px;
+    }
+
+    ce-question-list-embed {
+        margin-left: 30px;
+    }
+}
+
+ce-question-master-detail-embed::after {
+    clear:both;
+    display:block;
+    content:" ";
+}

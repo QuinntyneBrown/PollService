@@ -1,0 +1,26 @@
+ce-question-edit-embed {    
+
+    display:block;
+    margin-bottom:40px;
+    
+    h2 {
+        cursor:pointer;
+    }
+
+    .question-body, 
+    .question-description   
+    {
+        height:300px;
+        margin-bottom:30px;
+    }
+
+    ql-toolbar {
+        width:400px;
+    }
+
+    .question-create {
+        cursor:pointer;
+    }
+}
+
+

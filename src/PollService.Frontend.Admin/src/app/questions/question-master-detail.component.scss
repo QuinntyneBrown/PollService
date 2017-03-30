@@ -1,0 +1,20 @@
+@import "../../styles/base/_all";
+
+ce-question-master-detail {
+    display:block;
+	@extend .view-card;
+
+    ce-question-edit-embed,
+    ce-question-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:50%;
+    }
+}
+
+ce-question-master-detail::after {
+    clear:both;
+    display:block;
+    content:" ";
+}
